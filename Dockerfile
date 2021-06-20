@@ -8,7 +8,7 @@ ADD . /code
 WORKDIR /code
 
 # Installing lib
-RUN pip install flask
+RUN pip install -r req.txt
 
 # Exposing the port
 EXPOSE 5001
